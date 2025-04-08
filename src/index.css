@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+:root {
+  /* Layout */
+  --vp-nav-height: 64px;
+  --vp-sidebar-width: 272px;
+
+  /* Colors */
+  --vp-c-brand: #60a5fa;
+  --vp-c-brand-light: #93c5fd;
+  --vp-c-brand-lighter: #bfdbfe;
+  --vp-c-brand-dark: #3b82f6;
+  --vp-c-brand-darker: #2563eb;
+  --vp-c-brand-soft: rgba(59, 130, 246, 0.16);
+
+  /* Background */
+  --vp-c-bg: #161618;
+  --vp-c-bg-soft: #1d1d1f;
+  --vp-c-bg-mute: #2c2c2e;
+  --vp-c-bg-alt: #1d1d1f;
+
+  /* Text */
+  --vp-c-text-1: #ffffff;
+  --vp-c-text-2: #e5e5e7;
+  --vp-c-text-3: #c7c7c8;
+  --vp-c-text-4: #8e8e93;
+
+  /* Divider */
+  --vp-c-divider: #2c2c2e;
+  --vp-c-divider-light: #1d1d1f;
+  --vp-c-divider-dark: #3a3a3c;
+
+  /* Special */
+  --vp-c-sponsor: #db2777;
+}
+
+/* Remove light mode styles */
+.light {
+  display: none;
+}
